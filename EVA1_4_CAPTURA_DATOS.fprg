@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-05 07:38:22 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMjA5OzIwMjMtMDktMDU7MDY6NTY6NTAgcC4gbS47Mjg0NQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMjA5OzIwMjMtMDktMDU7MDc6Mzg6MjIgcC4gbS47MzsyOTU1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="apellidos" type="String" array="False" size=""/>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="domicilio" type="String" array="False" size=""/>
+            <declare name="servimed" type="Boolean" array="False" size=""/>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <declare name="promedio" type="Real" array="False" size=""/>
+            <output expression="&quot;Introduce tus apellidos:&quot;" newline="True"/>
+            <input variable="apellidos"/>
+            <output expression="&quot;Tus apellidos son:&quot;" newline="True"/>
+            <output expression="apellidos" newline="True"/>
+            <output expression="&quot;Introduce tu nombre(s):&quot;" newline="True"/>
+            <input variable="nombre"/>
+            <output expression="&quot;Tu nombre(s) es:&quot;" newline="True"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="&quot;Introduce tu domicilio:&quot;" newline="True"/>
+            <input variable="domicilio"/>
+            <output expression="&quot;Tu domicilio es:&quot;" newline="True"/>
+            <output expression="domicilio" newline="True"/>
+            <output expression="&quot;&#191;Tienes servicio medico? Si lo tienes escribe true, si no escribe false&quot;" newline="False"/>
+            <input variable="servimed"/>
+            <output expression="&quot;Introduce tu edad:&quot;" newline="True"/>
+            <input variable="edad"/>
+            <output expression="&quot;Tu edad es:&quot;" newline="True"/>
+            <output expression="edad" newline="True"/>
+            <output expression="&quot;Introduce tu promedio:&quot;" newline="True"/>
+            <input variable="promedio"/>
+            <output expression="&quot;Tu promedio es:&quot;" newline="True"/>
+            <output expression="promedio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
